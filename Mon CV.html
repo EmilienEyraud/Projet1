@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   	<head>
+  		<script src="https://kit.fontawesome.com/3da1b25dbf.js" crossorigin="anonymous"></script> 
   		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -15,110 +16,223 @@
 	<body>
 		<div id="bloc_page">
 			<header>
-				<div id="titre_principal">
-					<div id="photo">
-					<a href="image/moi_mini.png"><img src="image/moi_mini.png" alt="Ma Photo" title="Cliquez pour agrandir"/></a></div>
-					<div id="nom">
-					<h1>Emilien EYRAUD</h1></br>
-			 		<h2> Développeur Web Free Lance </h2></div>
-    			</div>
-    			<nav>
-    				<ul>
-    					<li><a href="https://business.facebook.com/groupesocom/?business_id=231924287621565&ref=bookmarks"><img src="image/logo_FB.png" alt="logo_FB" title="Cliquez pour accéder"></a></li>
-    					<li><a href="https://business.facebook.com/groupesocom/?business_id=231924287621565&ref=bookmarks"><img src="image/logo_Tweeter.png" alt="logo_FB" title="Cliquez pour accéder"></a></li>
-    					<li><a href="https://business.facebook.com/groupesocom/?business_id=231924287621565&ref=bookmarks"><img src="image/logo_Linkedin.jfif" alt="logo_FB" title="Cliquez pour accéder"></a></li>
-    				</ul>
-    			</nav>
-			</header>
-			<button type="button" class="btn btn-primary">Premier</button>
-			<button type="button" class="btn btn-secondary">Secondary</button>
-			<button type="button" class="btn btn-success">Success</button>
-			<button type="button" class="btn btn-danger">Danger</button>
-			<button type="button" class="btn btn-warning">Warning</button>
-			<button type="button" class="btn btn-info">Info</button>
-			<button type="button" class="btn btn-light">Light</button>
-			<button type="button" class="btn btn-dark">Dark</button>
+				<div id="photo">
+					<div class="moi">
+						<a href="image/moi_mini.png"><img src="image/moi_mini.png" alt="Ma Photo" title="Cliquez pour agrandir" style="border-radius: 100%; width:200px; height: 200px;" /></a>
+					</div>
+				</div>
+				
+				<div id="prénom">
+					<h1>EMILIEN</h1>
+				</div>
+				
+				<div id="nom">
+					<h1>EYRAUD</h1>
+				</div>	
 
-			<button type="button" class="btn btn-link">Link</button>
+			 	<div id="poste">
+			 	Développeur Web Free Lance
+			 	</div>
+	        </header>
+			
 			<section>
-				<article>
-					Actuellement en formation développeur web, je sollicite un poste au sein de votre entreprise.</br>
-					Vous trouverez ci-dessous un aperçu de mon expérience professionnelle et de mon parcours d'enseignement.</br>	
-					Dynamique, Motivé et Curieux, je saurais mettre à profit l'ensemble de mes connaissances et de mon savoir-faire, au service de l'ensemble du groupe. 
-						<h2>Mon Expérience</h2>
-							<ol>
-								<li><strong>Directeur chez Groupe Socom </strong></li>
-								<li>Directeur chez Intermarché Uzès</li>
-								<li>Chef de Département chez Intermarché Alès</li>
-								<li>Chef de Rayon chez E.Leclerc Alès</li>
-							</ol>
-						<h2>Mes Atouts</h2>
-							<ol>
-								<li><strong>Flexible</strong></li>
-								<li>Dynamique</li>
-								<li>Autonome</li>
-								<li>Organisé </li>
-							</ol>
-						<h2>Mon Parcours</h2>
-							<ol>
-								<li><strong>Diplôme Enseignement Supérieur Bac + 2</strong></li>
-								<li>Bac Commerce</li>
-								<li>Brevet des Collèges</li>
-							</ol>
-				</article>
+				<article>	
+					<div id="Formation" >
 
+						<div class="titreparagraphe1">
+							<div class="fatitreparagraphe1">
+							<i class="fas fa-graduation-cap fa-2x"></i>
+							</div>
+
+							<div class="libelléparagraphe1">
+							<h2>FORMATION</h2>
+							</div>
+						</div>
+
+						<div class="etudes">
+							<div class="ecole1">
+								<div class="iconeecole1">
+									<i class="fas fa-circle" style="color: #FEA101"></i>
+								</div>
+								<div class="date1">
+									2019-2020 </br>
+									Paris      
+								</div>	
+								<div class="Libelle1">
+									<h4>OPENCLASSROOMS</h4>
+									<h5>Développeur Web Junior</h5>
+									Cette formation m'a permis d'acquérir toutes les bases du développeur front end - back end
+									Grâce à cette formation, je dispose de tous les outils permettant la création optimisée de sites internets personnalisés.
+								</div>
+							</div>
+
+							<div class="ecole2">
+								<div class="iconeecole2">
+									<i class="fas fa-circle" style="color: #FEA101"></i>
+								</div>
+								<div class="date2">
+									2017-2018 </br>
+									Lyon      
+								</div>	
+								<div class="Libelle2">
+									<h4>UNIVERSITE DU GRAPHISME</h4>
+									<h5>Graphiste Designer</h5>
+									Cette formation m'a permis d'avoir une parfaite connaissance de la suite Adobe. Je me suis perfectionné en particulier sur les outils Illustrator, Indesign et After Effect, ce qui me permet de pouvoir créer des identités visuelles et des montages photos et vidéos.
+								</div>	
+							</div>
+						</div>
+								
+
+					<div id="Experience"></div>
+						
+						<div class="titreparagraphe2">
+							<div class="fatitreparagraphe2">
+							<i class="fas fa-briefcase fa-2x"></i>
+							</div>
+
+							<div class="libelléparagraphe2">
+							<h2>EXPERIENCE PROFESSIONNELLE</h2>
+							</div>
+						</div>
+
+						<div class="jobs">
+							<div class="job1">
+								<div class="iconejob1">
+									<i class="fas fa-circle" style="color: #FEA101"></i>
+								</div>
+								<div class="datejob1">
+									Mars 2018 - Poste Actuel </br>
+									Paris      
+								</div>	
+								<div class="Libellejob1">
+									<h4>SOCOM</h4>
+									<h5>Développeur Web Junior</h5>
+									Je suis en charge de la création de tous les sites internet de nos clients. Je prends en charge l'ensemble de la chaîne de production depuis le cahier des charges jusqu'au livrable définitif en passant par toutes les étapes de contrôle.
+								</div>
+							</div>
+
+							<div class="job2">
+								<div class="iconejob2">
+									<i class="fas fa-circle" style="color: #FEA101"></i>
+								</div>
+								<div class="datejob2">
+									Mai 2015
+									Février 2018 </br>
+									Lyon      
+								</div>	
+								<div class="Libellejob2">
+									<h4>AGENCE MYCOM</h4>
+									<h5>Graphiste Designer</h5>
+									Responsable d'une équipe de 3 personnes, en charge de toutes les créations visuelles à partir du cahier des chareges de nos clients : logos, chartes graphiques, déclinaisons sur tous supports print et web, intégration photos et vidéos
+								</div>	
+							</div>
+
+							<div class="job3">
+								<div class="iconejob3">
+									<i class="fas fa-circle" style="color: #FEA101"></i>
+								</div>
+								<div class="datejob3">
+									Juin 2012 </br>
+									Avril 2015 </br>
+									Lille     
+								</div>	
+								<div class="Libellejob3">
+									<h4>PHOTOSPACE</h4>
+									<h5>Photographe Vidéaste</h5>
+									Au sein d'une équipe de 7 personnes, réalisation de reportages photos et vidéos. Retouches et montage. Livraison du produit fini après validation
+								</div>	
+							</div>
+						</div>
+						
+					<div id="Recommandations"></div>
+						<div class="titreparagraphe3">
+							<div class="fatitreparagraphe3">
+							<i class="fas fa-pencil-alt fa-2x"></i>
+							</div>
+
+							<div class="libelléparagraphe3">
+							<h2>RECOMMANDATIONS</h2>
+							</div>
+						</div>
+						
+					</article>
 				<aside>
 					<div id="coordonnées">
-						<h3>Pour me joindre</h3>
-						<div class="adresse">
-						62 Avenue Jean Chaptal </br>
-						30340 Méjannes Les Ales 
-						</div>
-						<div class="tel">
-						Tel : 06 12 08 13 73 
-						</div>
-						<div class="mail">
+							<div class="titrecoordonnées">
+							<h3>CONTACT</h3>
+							</div>
+
+							<div class="adresse">
+							Adresse :</br>
+							62 Avenue Jean Chaptal </br>
+							30340 Méjannes Les Ales 
+							</div>
+
+							<div class="tel">
+							Téléphone :</br>
+							06 12 08 13 73 
+							</div>
+
+							<div class="mail">
+							Email :</br>
 							<a href="mailto:direction@groupe-socom.fr">direction@groupe-socom.fr</a>
-						</div>
+							</div>
+
+							<div class="siteweb">
+							Site Web :</br>
+							<a href="https://groupe-socom.fr">Groupe Socom</a>
+							</div>
+
+							<div class="skype">
+							Facebook :</br>
+							<a href="https://facebook.com/@emilieneyraud">@emilieneyraud</a>
+							</div>
 					</div>
-					<div id="compétences">
-						<h3>Mes Compétences</h3>
-						<div class="html"> 
-							<a href="image/logo_html5"><img src="image/logo_html5.png" alt="html5"></a><strong>Confirmé</strong> </br><br>
-						</div>
-						<div class="css"> 
-							<a href="image/logo_css3"><img src="image/logo_css3.png" alt="css3"></a> <strong>Confirmé</strong></br></br>
-						</div>
-						<div class="php"> 
-							<a href="image/logo_php"><img src="image/logo_php.png" alt="php"></a>Débutant</br>
-						</div>
+
+					<div id="apropos">
+							<div class="titreapropos">
+							<h3>A PROPOS DE MOI</h3>
+							</div>
+
+							<div class="texteapropos">
+							Actuellement en formation développeur web, je sollicite un poste au sein de votre entreprise.</br>
+							Vous trouverez ci-dessous un aperçu de mon expérience professionnelle et de mon parcours d'enseignement.</br>	
+							Dynamique, Motivé et Curieux, je saurais mettre à profit l'ensemble de mes connaissances et de mon savoir-faire, au service de l'ensemble du groupe.
+							</div> 
 					</div>
-					<div id="triangle">
-						<a href="image/triangle"> <img src="image/triangle.jpg" alt="triangle"></a>
-					</div>
+						
 				</aside>
+
 			</section>
 
 			<footer>
-				<div id="sports">
-					<h3>Activités Sportives</h3>
-						<ul>
-							<li>Footing</li>
-							<li>VTT</li>
-							<li>Piscine</li>
-						</ul>
-				</div>
 				<div id="loisirs">
-					<h3>Mes Loisirs</h3>
-						<ul>
-							<li>Lecture</li>
-							<li>Amis</li>
-							<li>Famille</li>
-						</ul>
+					<div class="titreloisirs">
+					<h3>LOISIRS</h3>
+					</div>
+					
+					<div class="iconesloisirs">
+						<i class="fas fa-swimming-pool fa-2x" style="border: solid; color: black; border-radius : 100%; padding: 5px 5px 5px 5px;"></i>
+						<i class="fas fa-running fa-2x" style="border: solid; color: black; border-radius : 100%; padding: 5px 5px 5px 5px;"></i>
+						<i class="fas fa-book-reader fa-2x" style="border: solid; color: black; border-radius : 100%; padding: 5px 5px 5px 5px;"></i>
+					</div>
 				</div>
-				<div id="autres">
-					<h3>Autres</h3>
-				</div>
+				<div class="recos">	
+					<div class="reco1">
+					Jean DUPONT </br>
+					Directeur : Société Dupont </br>
+					Téléphone : 04 66 60 00 00 </br>
+					E-mail : jean.dupont@dupont.fr	
+					</div>
+
+					<div class="reco2">
+					Pierre MARTIN </br>
+					Directeur : Société Martin </br>
+					Téléphone : 04 66 12 34 56 </br>
+					E-mail : pierre.martin@martin.fr
+					</div>
+				</div>	
+				
 			</footer>
 		</div>
 	</body>
