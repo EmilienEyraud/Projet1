@@ -33,12 +33,13 @@ h2
 header
 {
 	display: flex;
+	flex-direction: row;
 	position: relative;
 }
 
 #photo
 {
-	width: 300px;
+	min-width: 300px;
 	background-color: #FEA101;
 	margin left : 50px;
 }
@@ -46,6 +47,11 @@ header
 {
 	margin-top: 50px;
 	text-align: center;
+}
+#identite
+{
+	display: flex;
+	flex-direction: row;
 }
 #prénom
 {
@@ -63,27 +69,33 @@ header
 }
 #poste
 {
-	margin-left: 326px;
+	margin-left: 25px;
 	position: absolute;
 	padding-top: 120px;
 }
 
 
 /*section*/
-section
+.parcours
 {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: flex-end;
 }
-
+.detailparcours
+{
+	display: flex;
+	flex-direction: column;
+	
+}
 /*article*/
 article
 {
 	padding-left: 30px;
 	text-align: justify;
 }
-	/*formation*/
+
+/*formation*/
 
 #Formation
 {
@@ -226,7 +238,7 @@ article
 /*aside*/
 aside
 {
-	position:relative;
+	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -345,19 +357,78 @@ h3
 }
 
 
-/*Ressponsivité*/
-@media all and (max-width: 1024px)
+/*Responsivité*/
+@media screen and (max-width: 1024px)
 {
 	#bloc_page
 	{
 		width: auto;
 	}
-	#triangle
+	header
 	{
-		display: none;
+		display: flex;
+		flex-direction: column;
 	}
-	nav ul
+	.moi
+	{	
+		margin-top: 10Px;
+		margin-bottom: 10px;
+	}
+	.parcours
 	{
-		display: none;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	aside
+	{
+		width: 100%;
+		margin-top: 75px;
+	}
+	.titrecoordonnées
+	h3
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.adresse .tel .mail .siteweb .skype .texteapropos
+	{
+		padding-left: 10px;
+	}
+	#apropos
+	h3
+	{
+	width: 100%;
+	}
+	
+	footer
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	#loisirs
+	{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.titreloisirs
+	h3
+	{
+		width: auto;
+	}
+	.recos
+	{
+		display: flex;
+		flex-direction: column;
+	}	
+	.reco1
+	{
+		margin-left: 25px;
+	}
+	.reco2
+	{
+		margin-top: 10px;
+		margin-left: 25px;
+		padding-left: 0px;
+
 	}
 }

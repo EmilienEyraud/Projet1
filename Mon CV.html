@@ -6,7 +6,7 @@
   		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  		<meta name="viewport" content="width=device-width"/>
+  
 	    <meta charset="utf-8" />
 	    <link rel="stylesheet" href="mon cv.css">
 	    <title>Mon CV personnalisé</title>
@@ -21,23 +21,26 @@
 						<a href="image/moi_mini.png"><img src="image/moi_mini.png" alt="Ma Photo" title="Cliquez pour agrandir" style="border-radius: 100%; width:200px; height: 200px;" /></a>
 					</div>
 				</div>
-				
-				<div id="prénom">
-					<h1>EMILIEN</h1>
-				</div>
-				
-				<div id="nom">
-					<h1>EYRAUD</h1>
-				</div>	
+				<div id="identite">
+					<span id="prénom">
+						<h1>EMILIEN</h1>
+					</span>
+					
+					<span id="nom">
+						<h1>EYRAUD</h1>
+					</span>	
 
-			 	<div id="poste">
-			 	Développeur Web Free Lance
-			 	</div>
+				 	<span id="poste">
+				 	Développeur Web Free Lance
+				 	</span>
+				 </div>
 	        </header>
 			
-			<section>
-				<article>	
-					<div id="Formation" >
+	        <section class="parcours">
+				
+				<section class="detailparcours">
+							
+					<article id="Formation">
 
 						<div class="titreparagraphe1">
 							<div class="fatitreparagraphe1">
@@ -81,9 +84,10 @@
 								</div>	
 							</div>
 						</div>
+					</article>
 								
 
-					<div id="Experience"></div>
+					<article id="Experience">
 						
 						<div class="titreparagraphe2">
 							<div class="fatitreparagraphe2">
@@ -143,8 +147,9 @@
 								</div>	
 							</div>
 						</div>
-						
-					<div id="Recommandations"></div>
+					</article>	
+
+					<article id="Recommandations">
 						<div class="titreparagraphe3">
 							<div class="fatitreparagraphe3">
 							<i class="fas fa-pencil-alt fa-2x"></i>
@@ -154,8 +159,9 @@
 							<h2>RECOMMANDATIONS</h2>
 							</div>
 						</div>
-						
 					</article>
+				</section>
+					
 				<aside>
 					<div id="coordonnées">
 							<div class="titrecoordonnées">
