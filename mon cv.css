@@ -121,8 +121,13 @@ article
 	display: flex;
 	justify-content: space-between;
 }
+.icone
+{
+	padding-top: 20px;
+}
 .date
 {
+	padding-top: 20px;
 	max-width: 125px;
 	margin-left: 25px;
 }
@@ -225,16 +230,30 @@ h3
 	{
 		width: 100%;
 	}
+	.lieu
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	.icone
+	{
+		width:5px;
+	}
+	.date
+	{
+		width: 15px;
+	}
 	.Libelle
 	{
 		padding-right: 5px;
+		margin-left: 50px;
 	}
 	aside
 	{
 		width: 100%;
 		margin-top: 15px;
 	}
-	.recos
+	.recos 
 	{
 		display: flex;
 		flex-direction: column;
