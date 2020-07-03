@@ -77,6 +77,16 @@ header
 	padding-top: 150px;
 }
 
+#border
+{
+	width: 50px;
+	margin-left: 25px;
+	padding-top: 175px;
+	border-bottom: 2px solid #FEA101;
+	position: absolute;
+	
+}		   
+		  
 
 /*section*/
 .parcours
@@ -89,7 +99,7 @@ header
 {
 	display: flex;
 	flex-direction: column;
-	width: 70%;	
+	width: 75%;	
 }
 
 /*article*/
@@ -119,22 +129,32 @@ article
 {
 	margin-top: 25px;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
 }
+
 .icone
 {
 	padding-top: 20px;
+	width: 5%;
+	
+}
+#mainicone
+{
+	padding: 0.1rem;
+ 	border: 2px solid #FEA101;
+  	border-radius: 50%;
 }
 .date
 {
 	padding-top: 20px;
-	max-width: 125px;
+	Width:25%;
 	margin-left: 25px;
 }
 .Libelle
 {
-	margin-left: 75px;
+	margin-left: 25px;
 	padding-right: 25px;
+	width: 70%;
 }
 .recos
 {
@@ -239,6 +259,10 @@ h3
 	{
 		width:5px;
 	}
+	.mainicone
+	{
+		width: 5px;
+	}
 	.date
 	{
 		width: 15px;
@@ -263,3 +287,4 @@ h3
 	{
 		padding-top: 25px;
 	}
+}
