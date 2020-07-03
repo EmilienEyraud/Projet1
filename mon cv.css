@@ -125,6 +125,17 @@ article
 	width: 50px;
 	margin-right: 30px;
 }
+.fas.fa-circle.cercle
+{
+	border: 2px solid #FEA101;
+	border-radius: 50%;
+	padding: 3px;  
+	display: inline block;
+}
+.annee
+{
+	padding-left: 25px;
+}
 .lieu
 {
 	margin-top: 25px;
@@ -132,27 +143,24 @@ article
 	flex-direction: row;
 }
 
-.icone
+.point
 {
-	padding-top: 20px;
+	
 	width: 5%;
 	
 }
-#mainicone
-{
-	padding: 0.1rem;
- 	border: 2px solid #FEA101;
-  	border-radius: 50%;
-}
+
 .date
 {
 	padding-top: 20px;
 	Width:25%;
 	margin-left: 25px;
+	display: flex;
+	flex-direction: row;
 }
 .Libelle
 {
-	margin-left: 25px;
+	
 	padding-right: 25px;
 	width: 70%;
 }
@@ -224,13 +232,19 @@ h3
 		display: flex;
 		flex-direction: column;
 	}
-	#photo
+	#photo 
 	{
 		width: 100%;
+	}
+	#identite
+	{
+		width: 100%;
+		
 	}
 	#prenom
 	{
 		padding-top: 15px;
+		
 	}
 	#nom
 	{
@@ -240,6 +254,12 @@ h3
 	{
 		padding-top: 75px;
 	}
+	#border
+	{
+		padding-top: 100px;
+	}
+	
+	
 	.parcours
 	{
 		display: flex;
@@ -253,38 +273,52 @@ h3
 	.lieu
 	{
 		display: flex;
-		flex-direction: row;
-	}
-	.icone
-	{
-		width:5px;
-	}
-	.mainicone
-	{
-		width: 5px;
+		flex-direction: column;
 	}
 	.date
 	{
-		width: 15px;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
 	}
+	.point
+	{
+		width: 15%;
+	}
+	.annee
+	{
+		width: 85%;
+	}
+	
+		
+	
 	.Libelle
 	{
 		padding-right: 5px;
-		margin-left: 50px;
+		width: 100%;
+				
+	}
+	.cerclecontainer
+	{
+		height: 100px;
+		width: 40px;
 	}
 	aside
 	{
 		width: 100%;
 		margin-top: 15px;
 	}
+	
 	.recos 
 	{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
+		
 	}	
 	.societes
 	{
 		padding-top: 25px;
+		padding-left: 0px;
 	}
 }
