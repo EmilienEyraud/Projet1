@@ -149,24 +149,24 @@ article
 
 .point
 {
-	
-	width: 5%;
-	
+	width: 10%;
+	text-align: center;
+	display:inline-block;
+	padding-top: 15px;
 }
 
 .date
 {
-	padding-top: 20px;
 	Width:25%;
 	margin-left: 25px;
 	display: flex;
 	flex-direction: row;
+	padding:5px;
 }
 .Libelle
 {
-	
-	padding-right: 25px;
-	width: 70%;
+	padding-right: 125px;
+	width: 75%;
 }
 .recos
 {
@@ -224,7 +224,7 @@ h3
 	margin-top: 25px;
 
 }
-.fas.fa-running
+.mesloisirs
  {
 	width: 40px;
 	height: 40px;
@@ -233,35 +233,13 @@ h3
 	padding: 10px;  
 	text-align: center;
 	display:inline-block;	
+	line-height: 40px;
 }
 
-.fas.fa-swimming-pool
-{
-	width: 40px;
-	height: 40px;
-	border: 2px solid black;
-	border-radius: 50%;
-	padding: 10px;  
-	text-align: center;
-	display:inline-block;	
-}
-.fas.fa-book-reader
-{
-	width: 40px;
-	height: 40px;
-	border: 2px solid black;
-	border-radius: 50%;
-	padding: 10px;  
-	text-align: center;
-	display:inline-block;	
-}
 /*Responsivité*/
 @media screen and (max-width: 1024px)
 {
-	#bloc_page
-	{
-		width: auto;
-	}
+	
 	header
 	{
 		display: flex;
@@ -293,8 +271,6 @@ h3
 	{
 		padding-top: 100px;
 	}
-	
-	
 	.parcours
 	{
 		display: flex;
@@ -323,10 +299,8 @@ h3
 	.annee
 	{
 		width: 85%;
-	}
-	
 		
-	
+	}
 	.Libelle
 	{
 		padding-right: 5px;
@@ -342,6 +316,7 @@ h3
 	{
 		width: 100%;
 		margin-top: 15px;
+		padding-bottom: 15px;
 		
 	}
 	
